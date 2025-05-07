@@ -20,3 +20,5 @@
 10)Download the Iris flower dataset or any other dataset into a DataFrame.
 
 12)Locate dataset (e.g., sample_weather.txt) for working on weather data which reads the
+
+df['sex'] = df['sex'].map({'male': 0, 'female': 1})
